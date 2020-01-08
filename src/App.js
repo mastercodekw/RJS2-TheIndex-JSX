@@ -26,7 +26,7 @@ function App() {
                       <img
                         class="card-img-top img-fluid"
                         src={author.imageUrl}
-                        alt="J.K. Rowling"
+                        alt={author.first_name + " " + author.last_name}
                       />
                     </div>
                     <div class="card-body">
